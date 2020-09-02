@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MybatisPlusConfig {
 
+    //实现分页
     @Bean
     public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();

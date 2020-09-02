@@ -19,7 +19,7 @@ public class CodeGenerator {
 
     /**
      * <p>
-     * 读取控制台内容
+     * 代码生成器
      * </p>
      */
     public static String scanner(String tip) {
